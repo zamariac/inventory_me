@@ -1,0 +1,157 @@
+@import 'node_modules/rayon/src/styles/rayon'; //base modal styles
+@import 'node_modules/rayon/src/styles/theme'; // rayon model theme
+.navigation{
+		overflow: hidden;
+		
+		.register-nav{
+			float:right;
+			padding: .5em;
+		}
+		.login-nav{
+			float:right;
+			padding: .5em;
+
+		}
+		.logo{
+			float:left;
+			padding:.5em;
+			text-decoration: none;
+		}
+
+	}
+
+.home-page{
+
+	.main-title{
+		font-size: 50px;
+		text-align: center;
+		margin: 1em;
+	}
+	.main-subtitle{
+		text-align: center;
+		font-size: 20px;
+	}
+	.required-title{
+		text-align: center;
+
+	}
+	.main-buttons{
+		text-align: center;
+		margin-top: 2em;
+
+		.register-button{
+			padding: .5em;
+			text-decoration: none;	
+			
+		}
+		.login-button{
+			padding: .5em;
+			text-decoration: none;
+			
+		}
+
+		button{
+			margin: 1em;
+		}
+	
+	}
+
+}
+
+.login-box{
+	form{
+		width: 33%;
+		border: black solid .1em;
+		margin: 0 auto;
+		padding: 1em 1em 4em 1em;
+		input{
+			display: block;
+			width: 100%;
+		}
+		div{
+			margin: .5em;
+		}
+		button{
+			float: right;
+		}
+
+	}
+}
+
+.register-box{
+	form{
+		width:33%;
+		border: black solid .1em;
+		margin: 0 auto;
+		padding: 1em 1em 4em 1em;
+		input{
+			display: block;
+			width: 100%;
+			
+		}
+		div{
+			margin: .5em;
+		}
+		button{
+			float: right;
+			
+		}
+
+	}
+
+}
+
+.inventory-navigation{
+		overflow: hidden;
+		
+		.addproduct-nav{
+			float:right;
+			padding: .5em;
+		}
+		.logout-nav{
+			float:right;
+			padding: .5em;
+
+		}
+		.logo{
+			float:left;
+			padding:.5em;
+			text-decoration: none;
+		}
+
+	}
+
+.inventory-page{
+	.inventory-table {
+		border: black solid 1px;
+	}
+
+	th{
+		border: black solid 1px;
+	}
+	tr{
+		border: black solid 1px;
+	}
+	
+}
+
+.add-page{
+		form{
+		width: 33%;
+		border: black solid .1em;
+		margin: 0 auto;
+		padding: 1em 1em 4em 1em;
+		input{
+			display: block;
+			width: 100%;
+		}
+		div{
+			margin: .5em;
+		}
+		//button{
+			//float: right;
+		//}
+
+	}
+}
+
